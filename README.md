@@ -1,5 +1,7 @@
 # Sentinela Rural
 
+**🇧🇷 Português** · [🇬🇧 English](README.en.md)
+
 **A ponte no WhatsApp entre o órgão ambiental e o produtor rural.** O satélite preenche o que falta no
 CAR, traduz a pendência em linguagem rural e gera o pacote pronto para o módulo oficial do SICAR.
 
@@ -8,11 +10,6 @@ CAR, traduz a pendência em linguagem rural e gera o pacote pronto para o módul
 
 Este repositório é o **núcleo aberto** da solução: o método, o código e a documentação, **reproduzíveis a
 partir de dados públicos**. Roda o fluxo completo **para um CAR** — sem nenhuma chave nossa.
-
-> 🇬🇧 **In one line:** the WhatsApp bridge between the environmental agency and the small farmer —
-> satellite fills the gaps in the rural land registry (CAR), translates the issue into plain rural
-> language, and generates an **importable package** for the official system. Runs end-to-end on
-> **one property** from **public data only** — no key of ours, no Earth Engine. The farmer accepts.
 
 ---
 
@@ -49,9 +46,6 @@ Reserva Legal por bioma, consolidada pré-2008), renderiza o *antes/depois* e ex
 O envio no WhatsApp (`sentinela/whatsapp.py`) usa a Meta Cloud API com a **sua própria** chave.
 
 ![antes/depois de exemplo](examples/saida_antes_depois.png)
-
-> 🇬🇧 **No database, no key.** Bring any property polygon and the full loop runs on public data
-> (Sentinel-2 + MapBiomas + OpenStreetMap hydrography), ending in an importable KML for the official system.
 
 ### Camada distinta: SIGEF / SNCR — regularização (pública, sem CPF)
 

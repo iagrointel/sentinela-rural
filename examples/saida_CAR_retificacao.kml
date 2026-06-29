@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="CAR_demo" id="CAR_demo">
+	<SimpleField name="camada" type="string"></SimpleField>
+</Schema>
+<Folder><name>CAR_demo</name>
+  <Placemark>
+	<name>Perímetro do imóvel</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#CAR_demo">
+		<SimpleData name="camada">imovel</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-36.515736169,-7.542400066 -36.516884536,-7.528030324 -36.519965432,-7.492653693 -36.51792232,-7.491970946 -36.51598563,-7.492723114 -36.516088175,-7.493102672 -36.51718517,-7.497489394 -36.516133864,-7.493372734 -36.517193521,-7.4975309 -36.517138318,-7.498437036 -36.516103676,-7.498169239 -36.515671268,-7.502598631 -36.515376976,-7.509134875 -36.513418767,-7.542425331 -36.515736169,-7.542400066</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -10,6 +10,8 @@ credentials*.json
 *.tif
 *.geojson
 !examples/*.geojson
+!examples/saida_*.png
+!examples/saida_*.kml
 __pycache__/
 *.pyc
 .venv/

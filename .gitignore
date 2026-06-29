@@ -1,0 +1,17 @@
+# segredos — NUNCA versionar
+.env
+*.key
+*.pem
+credentials*.json
+
+# saídas / artefatos
+*.png
+*.kml
+*.tif
+*.geojson
+!examples/*.geojson
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store

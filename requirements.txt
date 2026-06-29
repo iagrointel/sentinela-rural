@@ -5,5 +5,4 @@ pyproj>=3.5
 numpy>=1.24
 pillow>=10.0
 requests>=2.31
-# ogr2ogr (GDAL CLI) é usado por sentinela/export_kml.py — instale o GDAL no sistema:
-#   Debian/Ubuntu: sudo apt-get install gdal-bin
+# Sem dependências de sistema: o KML é gerado em Python puro (sem GDAL/ogr2ogr).

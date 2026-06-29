@@ -91,7 +91,7 @@ it on a CAR; running it over the 8.4 million in production is the service.
 | Land use / land cover | **MapBiomas** (public COG on Google Cloud Storage, direct download) |
 | Hydrography / boundaries | IBGE, ANA (public shapefiles) · OpenStreetMap (public proxy, BYO) |
 | Land cadastre | SNCR, SIGEF, **SICAR public consultation** |
-| Geoprocessing | PostGIS · GDAL/`ogr2ogr` · shapely · rasterio |
+| Geoprocessing | shapely · rasterio · pyproj (pure Python — no system GDAL) |
 | Basemap | OpenStreetMap |
 
 **No Google Earth Engine. No paid ArcGIS.** That is the call's Digital Public Good premise.

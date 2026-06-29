@@ -80,7 +80,7 @@ rodar nos 8,4 milhões em produção é o serviço.
 | Uso e cobertura do solo | **MapBiomas** (COG público na Google Cloud Storage, download direto) |
 | Hidrografia / limites | IBGE, ANA (shapefiles públicos) |
 | Cadastro fundiário | SNCR, SIGEF, **SICAR consulta pública** |
-| Geoprocessamento | PostGIS · GDAL/`ogr2ogr` · shapely · rasterio |
+| Geoprocessamento | shapely · rasterio · pyproj (Python puro — sem GDAL de sistema) |
 | Base / mapas | OpenStreetMap |
 
 **Nada de Google Earth Engine. Nada de ArcGIS pago.** É a premissa de Bem Público Digital do edital.

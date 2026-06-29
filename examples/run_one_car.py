@@ -9,8 +9,10 @@ hidrografia (OpenStreetMap) são públicos. O envio no WhatsApp é só impresso 
 enviar de verdade, com a SUA chave Meta).
 """
 import json
+import os
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # repo root → import sentinela
 from sentinela import sentinel, mapbiomas, diagnose, overlay, export_kml, whatsapp, rivers, sigef
 
 
